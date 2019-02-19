@@ -1,6 +1,10 @@
-stage('Running python script'){
-sh      '''
+node{
+stage{
+step('Running python script'){
+  
         echo "executing python script"
           
-        '''
+        
+    }
+   }
 }
